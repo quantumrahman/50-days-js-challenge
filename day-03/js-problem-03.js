@@ -1,0 +1,14 @@
+// let's solve:
+function isEvenOrOdd(num) {
+    if (num % 2 === 0) {
+        return 'Even';
+    } else {
+        return 'Odd';
+    };
+};
+
+console.log(isEvenOrOdd(11));
+
+/*
+    output: Odd;
+*/
